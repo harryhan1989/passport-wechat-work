@@ -1,0 +1,39 @@
+{
+  "name": "passport-wechat-work",
+  "version": "0.2.0",
+  "description": "Passport Strategy for Wechat Work Account/企业微信二维码登录",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha --report lcovonly  -- -R spec",
+    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harryhan1989/passport-wechat-work"
+  },
+  "keywords": [
+    "passport",
+    "wechat",
+    "work"
+  ],
+  "dependencies": {
+    "async": "^1.5.2",
+    "passport-strategy": "1.x.x",
+    "request": "^2.58.0"
+  },
+  "author": "harryhan1989",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harryhan1989/passport-wechat-work/issues"
+  },
+  "homepage": "https://github.com/harryhan1989/passport-wechat-work#readme",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "chai-passport-strategy": "^0.2.0",
+    "mocha": "^2.3.3",
+    "istanbul": "^0.4.3",
+    "proxyquire": "^1.7.7",
+    "coveralls": "^2.11.9",
+    "mocha-lcov-reporter": "^1.2.0"
+  }
+}
