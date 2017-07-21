@@ -6,7 +6,7 @@ Passport的企业微信OAuth2.0, 二维码扫码登录，用户验证模块， �
 
 本程序基于passport-wechat-enterprise源码改写.
 
-[企业微信](https://work.weixin.qq.com/api/doc#10028)
+[企业微信开发文档](https://work.weixin.qq.com/api/doc#10028)
 
 微信企业号，转至 [passport-wechat-enterprise](https://github.com/wenwei1202/passport-wechat-enterprise)
 
